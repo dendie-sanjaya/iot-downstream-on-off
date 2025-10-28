@@ -1,7 +1,7 @@
-# IoT Lamp Control Project (Remote Lamp Control) with ESP8266 and MQTT
+# IoT Lamp Control with ESP8266 and MQTT
 
 ## Table of Contents
-- [IoT Lamp Control Project (Remote Lamp Control) with ESP8266 and MQTT](#iot-lamp-control-project-remote-lamp-control-with-esp8266-and-mqtt)
+- [IoT Lamp Control with ESP8266 and MQTT](#iot-lamp-control-with-esp8266-and-mqtt)
   - [Table of Contents](#table-of-contents)
   - [1. Introduction: Bridging the Physical and Digital Worlds](#1-introduction-bridging-the-physical-and-digital-worlds)
   - [2. System Architecture](#2-system-architecture)
