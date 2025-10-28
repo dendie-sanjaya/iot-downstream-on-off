@@ -7,8 +7,8 @@
 // ===================================
 
 // Kredensial WiFi Anda
-const char* ssid = "Mama adelia";
-const char* password = "uu311009"; // GANTI dengan PASSWORD ASLI WIFI Anda!
+const char* ssid = "xxxx";
+const char* password = "xxxxxx"; // GANTI dengan PASSWORD ASLI WIFI Anda!
 
 // Konfigurasi MQTT Broker
 const char* mqtt_server = "192.168.100.35"; // Pastikan ini adalah IP lokal PC/Server Broker Anda!

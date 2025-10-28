@@ -2,12 +2,13 @@
 
 ## Table of Contents
 - [IoT Lamp Control with ESP8266 and MQTT](#iot-lamp-control-with-esp8266-and-mqtt)
+  - [Table of Contents](#table-of-contents)
   - [1. Introduction: Bridging the Physical and Digital Worlds](#1-introduction-bridging-the-physical-and-digital-worlds)
   - [2. System Architecture](#2-system-architecture)
     - [Communication Flow Diagram](#️-communication-flow-diagram)
     - [Project Folder Structure](#project-folder-structure)
   - [3. Hardware Requirements](#3-hardware-requirements)
-    - [Wiring Diagram (Schematic)](#️-wiring-diagram-schematic)
+    - [Wiring Diagram (Schematic)](#wiring-diagram-schematic)
   - [4. Software Requirements](#4-software-requirements)
   - [5. Configuration and Deployment](#5-configuration-and-deployment)
     - [5.1. MQTT Broker Deployment (Using Docker)](#51-mqtt-broker-deployment-using-docker)
@@ -20,6 +21,8 @@
     - [B. Sending Commands from the Publisher (Backend App / MQTT Client)](#b-sending-commands-from-the-publisher-backend-app--mqtt-client)
     - [C. Microcontroller Running Demo (Serial Monitor)](#c-microcontroller-running-demo-serial-monitor)
 
+
+![ss](ss/lamp-2.png)
 
 ## 1. Introduction: Bridging the Physical and Digital Worlds
 
@@ -65,7 +68,7 @@ Diagram showing how data flows from the control app down to the ESP8266 microcon
 | **Microcontroller** | NodeMCU ESP8266 (or ESP-01/Wemos D1 Mini) |
 | **Load** | LED Lamp or DC  |
 
-### ⚙️ Wiring Diagram (Schematic)
+### Wiring Diagram (Schematic)
 
 | ESP8266 Pin | Output Module Pin (Relay/LED) | Notes |
 |--|-|-|
@@ -212,7 +215,10 @@ Turning Lamp ON
 
 ![ss](ss/lamp.png)
 
-![See & Download Video Demo](video/demo-lamp.mp4)
+![ss](ss/lamp-2.png)
+
+
+![See & Download Video Demo](video/demo-lamp-2.mp4)
 
 This confirms the ESP8266 received and executed the relay control command successfully ✅
 
