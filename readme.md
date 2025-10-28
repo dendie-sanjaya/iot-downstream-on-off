@@ -6,7 +6,7 @@
   - [1. Introduction: Bridging the Physical and Digital Worlds](#1-introduction-bridging-the-physical-and-digital-worlds)
   - [2. System Architecture](#2-system-architecture)
     - [🛰️ Communication Flow Diagram](#️-communication-flow-diagram)
-    - [📁 Project Folder Structure](#-project-folder-structure)
+    - [Project Folder Structure](#project-folder-structure)
   - [3. Hardware Requirements](#3-hardware-requirements)
     - [⚙️ Wiring Diagram (Schematic)](#️-wiring-diagram-schematic)
   - [4. Software Requirements](#4-software-requirements)
@@ -27,7 +27,7 @@
 Have you ever imagined controlling your home devices from anywhere, just by sending a quick message?  
 This project brings that concept to life by bridging the **digital world (applications, servers)** and the **physical world (lamps, relays)** using **NodeMCU ESP8266** and **MQTT (Message Queuing Telemetry Transport)**.
 
-The goal is to create a reliable and real-time system for receiving **ON/OFF** commands from an external app, processing them through an **MQTT broker**, and immediately executing the action on the hardware.
+The goal is to create  a reliable and real-time system for receiving **ON/OFF** commands from an external app, processing them through an **MQTT broker**, and immediately executing the action on the hardware.
 
 
 ## 2. System Architecture
@@ -41,9 +41,8 @@ Diagram showing how data flows from the control app down to the ESP8266 microcon
 
 ![ss](design/flow.png)
 
-### 📁 Project Folder Structure
+###  Project Folder Structure
 ```
-
 .
 ├── backend/
 │   ├── node_modules/
