@@ -214,7 +214,7 @@ Turning Lamp ON
 
 ![ss](ss/lamp.png)
 
-![ss](video/demo-lamp.png)
+![Video Demo](Video/demo-lamp.png)
 
 This confirms the ESP8266 received and executed the relay control command successfully ✅
 
