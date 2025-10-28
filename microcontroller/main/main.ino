@@ -7,8 +7,8 @@
 // ===================================
 
 // Kredensial WiFi Anda
-const char* ssid = "AP@Praisindo";
-const char* password = "Password**"; // GANTI dengan PASSWORD ASLI WIFI Anda!
+const char* ssid = "APxxxxx";
+const char* password = "Pxxxx"; // GANTI dengan PASSWORD ASLI WIFI Anda!
 
 // Konfigurasi MQTT Broker
 const char* mqtt_server = "192.168.69.90"; // Pastikan ini adalah IP lokal PC/Server Broker Anda!
