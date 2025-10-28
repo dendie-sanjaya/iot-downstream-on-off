@@ -7,11 +7,11 @@
 // ===================================
 
 // Kredensial WiFi Anda
-const char* ssid = "APxxxxx";
-const char* password = "Pxxxx"; // GANTI dengan PASSWORD ASLI WIFI Anda!
+const char* ssid = "Mama adelia";
+const char* password = "uu311009"; // GANTI dengan PASSWORD ASLI WIFI Anda!
 
 // Konfigurasi MQTT Broker
-const char* mqtt_server = "192.168.69.90"; // Pastikan ini adalah IP lokal PC/Server Broker Anda!
+const char* mqtt_server = "192.168.100.35"; // Pastikan ini adalah IP lokal PC/Server Broker Anda!
 const int mqtt_port = 1883;
 
 // Topic yang di-subscribe (HARUS SAMA dengan topik publikasi Express: 'lamp')
