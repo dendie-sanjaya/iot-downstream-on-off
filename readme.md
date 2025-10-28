@@ -2,7 +2,6 @@
 
 ## Table of Contents
 - [IoT Lamp Control with ESP8266 and MQTT](#iot-lamp-control-with-esp8266-and-mqtt)
-  - [Table of Contents](#table-of-contents)
   - [1. Introduction: Bridging the Physical and Digital Worlds](#1-introduction-bridging-the-physical-and-digital-worlds)
   - [2. System Architecture](#2-system-architecture)
     - [Communication Flow Diagram](#️-communication-flow-diagram)
